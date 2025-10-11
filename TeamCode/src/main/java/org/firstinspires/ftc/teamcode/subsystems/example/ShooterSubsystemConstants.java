@@ -7,7 +7,9 @@ public class ShooterSubsystemConstants {
     //Add subsystem constants here.  Use this to avoid magic numbers
     public static final int MOTOR_NAME_THRESHOLD = 5;
     public static final DcMotor.ZeroPowerBehavior FLYWHEEL_ZERO_POWER_BEHAVIOR = DcMotor.ZeroPowerBehavior.FLOAT;
-    public static final DcMotorSimple.Direction FLYWHEEL_DIRECTION = DcMotorSimple.Direction.REVERSE;
+
+    public static final DcMotorSimple.Direction FLYWHEEL_REVERSE = DcMotorSimple.Direction.REVERSE;
+    public static final DcMotorSimple.Direction FLYWHEEL_FORWARD = DcMotorSimple.Direction.FORWARD;
     public static final double FLYWHEEL_VELOCITY_P = 1.0;
     public static final double FLYWHEEL_VELOCITY_I = 0.0;
     public static final double FLYWHEEL_VELOCITY_D = 0.0;

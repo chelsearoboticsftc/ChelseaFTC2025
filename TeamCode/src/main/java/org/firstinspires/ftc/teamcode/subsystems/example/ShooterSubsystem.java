@@ -41,8 +41,8 @@ public class ShooterSubsystem {
         flyWheelMotorBottom.setZeroPowerBehavior(ShooterSubsystemConstants.FLYWHEEL_ZERO_POWER_BEHAVIOR);
 
         //This defines the motor direction (forward or reversed)
-        flyWheelMotorBottom.setDirection(ShooterSubsystemConstants.FLYWHEEL_DIRECTION);
-        flyWheelMotorBottom.setDirection(ShooterSubsystemConstants.FLYWHEEL_DIRECTION);
+        flyWheelMotorBottom.setDirection(ShooterSubsystemConstants.FLYWHEEL_REVERSE);
+        flyWheelMotorTop.setDirection(ShooterSubsystemConstants.FLYWHEEL_REVERSE);
 
         /* This defines the motor velocity PIDF gains.  Velocity PIDF values determine control    *
          * around a target velocity (setTargetVelocity) OR how fast the system responds to a      *
